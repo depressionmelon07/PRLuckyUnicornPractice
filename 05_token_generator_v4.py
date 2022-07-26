@@ -33,6 +33,7 @@ for item in range(0, 10):
         # otherwise set to a zebra
         else:
             chosen = "zebra"
+            balance -= 0.5
 
     # output
     print("You got a {}. Your balance is ${:.2f}".format(chosen, balance))
